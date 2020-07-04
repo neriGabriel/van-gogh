@@ -1,5 +1,5 @@
 var div = document.getElementById('highlight-mensagem');
-var textos = ['Historia', 'Curiosidades'];
+var textos = ['Historia', 'Curiosidades', 'Pinturas'];
 
 function escrever(str, done) {
     var char = str.split('').reverse();
@@ -44,3 +44,4 @@ window.sr = ScrollReveal();
 sr.reveal('.img-seta');
 sr.reveal('.nav-itemLink');
 sr.reveal('.nav-itemMenu');
+sr.reveal('.sobre-p');
