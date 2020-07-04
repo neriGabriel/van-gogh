@@ -1,17 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
-    <title>Inicio</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.css" rel="stylesheet">
+  <script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/1.0.0/flickity.pkgd.js"></script>
+
+
+  <title>Vicent van Gogh</title>
 </head>
 <body>
-    <header class="header">
-        <h1> <strong class="style"> < </strong> Neri <strong class="style"> / > </strong></h1>
-    </header>
-    <script src="JS/script.js"></script>
+
+  <header id="header-container" class="header-container">
+    <nav id="header-nav" class="header-nav">
+
+        <div class="nav-itemMenu" id="menu">
+            <ul>
+              <li><a href="">Inicio</a></li>
+              <li><a href="">Historia</a></li>
+              <li><a href="">Desenvolvedores</a></li>
+            </ul>
+        </div>
+
+   </nav>
+      <div class="container-link-highlight">
+
+        <div class="highlight-container">
+            <div class="highlight-msg">
+                <h1 id="highlight-mensagem" class="highlight-mensagem"></h1>
+            </div>
+        </div>
+
+        <div class="skill-button-container">
+              <a href="" class="skill-button">Vincent van Gogh</a>
+              <img src="./img/img3.png" alt="Seta" id="img-seta" class="img-seta">
+        </div>
+
+
+      </div>
+  </header>
+
+  <section id="carrosel" class="carrosel">
+    <h1>GALERIA DE VICENT VAN GOGH</h1>
+    <div class="gallery js-flickity"
+      data-flickity-options='{ "wrapAround": true }'>
+      <div class="gallery-cell"><img src="./img/BG1.jpg" alt=""></img></div>
+      <div class="gallery-cell"><img src="./img/BG2.jpg" alt=""></img></div>
+      <div class="gallery-cell"><img src="./img/BG3.jpg" alt=""></img></div>
+    </div>
+
+  </section>
+
+  <section id="sobre" class="sobre-container">
+    <h1>HISTORIA</h1>
+
+
+  </section>
+
+  <section id="curiosidades" class="curiosidades-container">
+    <h1>CURIOSIDADES</h1>
+
+
+  </section>
+
+  <section id="desenvolvedores" class="desenvolvedores-container">
+    <h1>DESENVOLVEDORES</h1>
+
+
+  </section>
+
+<!--<section id="sobre" class="sobre-container">
+      <div class="container-sobre-info">
+          <div class="sobre-info">
+              <h1>AMANTE DO DESENVOLVIMENTO</h1>
+              <p>
+                Olá meu nome é Gabriel neri, amo o desenvolvimento em geral,
+                tenho 19 anos, me formei como técnico em informatica pela ETEC
+                Polivalente de Americana e atualmente estou cursando Ciência
+                da Computação na Universidade Paulista UNIP.
+              </p>
+              <p>
+                  Saiba mais sobre mim, Acesse meu <strong>LINKEDIN</strong>.
+              </p>
+          </div>
+
+          <div class="sobre-foto" id="sobre-foto">
+          </div>
+      </div>
+  </section>-->
+
+
+
+
+
+  <script src="js/script.js"></script>
+
 </body>
 </html>
