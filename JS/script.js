@@ -6,7 +6,7 @@ function escrever(str, done) {
     var typer = setInterval(function() {
         if (!char.length) {
             clearInterval(typer);
-            return setTimeout(done, 500); // só para esperar um bocadinho
+            return setTimeout(done, 500); 
         }
         var next = char.pop();
         div.innerHTML += next;
@@ -45,3 +45,4 @@ sr.reveal('.img-seta');
 sr.reveal('.nav-itemLink');
 sr.reveal('.nav-itemMenu');
 sr.reveal('.sobre-p');
+sr.reveal('.desenvolvedores-container');
