@@ -173,7 +173,7 @@ body {
 }
 
 .skill-button-container img {
-    margin-top: 15%;
+    margin-top: 20vh;
     cursor: pointer;
 }
 
@@ -198,93 +198,35 @@ body {
     align-items: center;
     width: 100%;
     height: auto;
-    background-image: url("./img/img2.jpg");
+    background-image: url("../img/img2.jpg");
     background-position: center;
     background-attachment: fixed;
 }
 
 .sobre-container p {
     width: 50%;
-    color: #000;
-    font-size: 1.2em;
-    font-weight: 500;
-    text-align: justify;
-    letter-spacing: 2px;
-    line-height: 160%;
-}
-
-.container-sobre-info {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: row;
-    flex-direction: row;
-    -webkit-box-pack: start;
-    -ms-flex-pack: start;
-    justify-content: space-between;
-    -webkit-box-align: start;
-    -ms-flex-align: start;
-    align-items: center;
-    width: 90%;
-    height: 60vh;
-}
-
-.sobre-container .sobre-info {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    align-items: center;
-    width: 35%;
-    height: 60vh;
-}
-
-.sobre-info h1 {
-    margin-left: 4%;
-    font-size: 4em;
-    font-weight: bold;
-    color: #FFF;
-    text-align: left;
-}
-
-.sobre-info p {
-    width: 100%;
     color: #FFF;
     font-size: 1.2em;
     font-weight: 500;
     text-align: justify;
     letter-spacing: 2px;
     line-height: 160%;
-}
-
-.sobre-info strong {
-    color: #1586f7;
-    font-weight: lighter;
-    cursor: pointer;
-}
-
-.sobre-foto {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 35%;
-    height: 60vh;
 }
 
 .sobre-container h1 {
+    margin-left: 4%;
+    font-size: 2em;
     padding: 2%;
+    font-weight: bold;
+    color: #FFF;
     text-align: center;
     font-weight: lighter;
     text-decoration: underline;
 }
+
+/*
+    Curiosidades
+*/
 
 .curiosidades-container {
     display: -webkit-box;
@@ -321,6 +263,10 @@ body {
     line-height: 160%;
 }
 
+/*
+    Desenvolvedores
+*/
+
 .desenvolvedores-container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -339,6 +285,17 @@ body {
     height: auto;
 }
 
+.desenvolver-container {
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 20%;
+    margin-bottom: 4%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
 .desenvolvedores-container h1 {
     text-align: center;
     font-weight: lighter;
@@ -351,49 +308,9 @@ body {
     text-decoration: underline;
 }
 
-.gallery-cell {
-    width: 66%;
-    height: 500px;
-    margin-right: 10px;
-    background: #F1F1F1F1;
-}
-
-
-/* cell number */
-
-.gallery-cell:before {
-    display: block;
-    text-align: center;
-    line-height: 200px;
-    font-size: 80px;
-    color: white;
-}
-
-.carrosel {
-    background: #F1F1F1F1;
-}
-
-.carrosel h1 {
-    padding: 2%;
-    text-align: center;
-    font-weight: lighter;
-    text-decoration: underline;
-}
-
 .desenvolvedor-holder {
     width: 100%;
     margin-top: 5%;
-}
-
-.desenvolver-container {
-    width: 50%;
-    margin-left: 25%;
-    margin-right: 20%;
-    margin-bottom: 4%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
 }
 
 .desenvolvedor-sobre {
@@ -407,6 +324,38 @@ body {
 
 .desenvolvedor-sobre h4 {
     font-weight: lighter;
+}
+
+.gallery-cell {
+    width: 66%;
+    height: 500px;
+    margin-right: 10px;
+    background: #F1F1F1F1;
+}
+
+/* cell number */
+
+.gallery-cell:before {
+    display: block;
+    text-align: center;
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+}
+
+/*
+    Carrosel
+*/
+
+.carrosel {
+    background: #F1F1F1F1;
+}
+
+.carrosel h1 {
+    padding: 2%;
+    text-align: center;
+    font-weight: lighter;
+    text-decoration: underline;
 }
 
 .circle {
